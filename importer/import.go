@@ -1,4 +1,14 @@
-module example/hello
+import "encoding/json"
 
-go 1.22.5
+// function to import json
+func main() {
+
+}
+
+func import_file() {
+
+}
+
+
+
 
