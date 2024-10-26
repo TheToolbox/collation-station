@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { enhance } from "$app/forms";
     import ShinyLabel from "./ShinyLabel.svelte";
 
     // uploader binds to form, with correct typing
@@ -8,7 +9,7 @@
 <header>
     
     <ShinyLabel for="fileUpload" size="small">Upload</ShinyLabel>
-    <form method="POST" bind:this={uploader}>
+    <form method="POST" bind:this={uploader} use:enhance>
         <input
             type="file"
             name="fileUpload"
