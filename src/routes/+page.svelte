@@ -1,6 +1,12 @@
-<script lang="ts">
-    import Menu from './Menu.svelte';
-</script>
-<Menu></Menu>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<main>
+    <h1>Welcome to your History</h1>
+    <p>Select Upload above to get started!</p>
+    
+</main>
+
+
+<style>
+    main {
+        padding-left: 10px;
+    }
+</style>
